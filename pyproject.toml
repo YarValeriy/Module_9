@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "Module8"
+version = "0.1.0"
+description = ""
+authors = ["<GoIt>"]
+readme = "README.md"
+packages = [{include = "Module8"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.23"
+faker = "^19.13.0"
+psycopg2 = "^2.9.9"
+alembic = "^1.12.1"
+poetry = "^1.8.2"
+mongoengine = "^0.28.2"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+scrapy = "^2.11.1"
+bs4 = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
